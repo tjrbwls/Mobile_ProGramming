@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/mail_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메일 수신"/>
+        <RadioButton
+            android:id="@+id/fax_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="우편 수신"/>
+    </RadioGroup>
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="메일 주소"
+        android:textSize="20sp">
+    </EditText>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:visibility="gone" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="자택 주소"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="직장 주소"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="제출"/>
+</LinearLayout>
