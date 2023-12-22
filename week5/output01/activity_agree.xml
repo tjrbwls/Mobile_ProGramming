@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인 정보 수집 및 이용 동의"
+        android:textSize="30sp"
+        android:layout_margin="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원제 서비스 운영을 위해 입력하신 개인정보(아이디, 비밀번호, 메일주소)를 수집 및 이용합니다. 동의를 거부하실 경우 회원제 서비스 이용이 불가합니다."
+        android:textSize="20sp"
+        android:layout_margin="20dp">
+    </TextView>
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보(아이디, 비밀번호, 메일주소)의 수집및 이용에 동의합니다"
+        android:textSize="20sp">
+    </CheckBox>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 등록"
+        android:textSize="20sp"
+        android:layout_margin="20dp">
+    </Button>
+</LinearLayout>
