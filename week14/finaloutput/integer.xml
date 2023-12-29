@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="SMALL_IMAGE_SIZE_IN_LIST_ITEM">200</integer>
+    <integer name="MEDIUM_IMAGE_SIZE_IN_LIST_ITEM">300</integer>
+    <integer name="LARGE_IMAGE_SIZE_IN_LIST_ITEM">400</integer>
+    <integer name="SMALL_TEXT_SIZE_IN_LIST_ITEM">15</integer>
+    <integer name="MEDIUM_TEXT_SIZE_IN_LIST_ITEM">20</integer>
+    <integer name="LARGE_TEXT_SIZE_IN_LIST_ITEM">30</integer>
+</resources>
